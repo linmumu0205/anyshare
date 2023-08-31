@@ -1,0 +1,23 @@
+name: AnyShare
+display_name: "{{ 'AnyShare' | trans }}"
+version: 0.1.0
+comment: "{{ 'AnyShare Computing Management Platform' | trans }}"
+author: mumu
+exec_type: python
+update_policy: always
+edition: community
+type: web
+tags:
+  - web
+protocols:
+  - AnyShare
+
+i18n:
+  AnyShare:
+    en: AnyShare
+    zh: AnyShare
+    ja: データイーズ
+  AnyShare Computing Management Platform:
+    en: AnyShare is an intelligent content management platform for massive amounts of unstructured data
+    zh: AnyShare 是面向海量非结构化数据的智能内容管理平台
+    ja: AnyShareは、大量の非構造化データに対応するインテリジェントなコンテンツ管理プラットフォームです
